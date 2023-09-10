@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Frontend Task 1</title>
+    <link rel="icon"  href="me.jpeg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="me.jpeg" width="80" height="80" alt="Your Slack username" data-testid="slackDisplayImage"/>
+
+      <a
+        target="_blank"
+        href="https://app.slack.com/client/T05FFAA91JP/C05QU2Y9SSY/rimeto_profile/U05RGCM6P7X"
+        data-testid="slackProfileURL"
+      >
+        <p data-testid="slackUserName">Folarin Lawal</p>
+      </a>
+
+      <p data-testid="currentDayOfTheWeek">Day of the Week: <span id="Week" style="font-weight: bold"></span>
+      </p>
+
+      <p data-testid="currentUTCTime">
+        UTC Time:
+        <span id="utcTime" data-testid="currentUTCTime">loading...</span>
+      </p>
+
+      <p data-testid="myTrack" style="font-weight: bold">My Track: Frontend</p>
+
+      <a href="https://github.com/USMANLAWAL/firsttrack" data-testid="githubURL">GitHub Repository</a>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
